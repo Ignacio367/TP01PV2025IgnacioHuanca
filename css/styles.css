@@ -1,0 +1,57 @@
+body{
+    background:lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.image{
+    width: 700px;
+}
+
+header{
+    background: lightgoldenrodyellow;
+    text-align: center;
+}
+
+nav{
+    float: left;
+    padding: 20px;
+    width: 80%;
+    background: lightgoldenrodyellow;
+}
+
+article{
+    float: left;
+    padding: 20px;
+    width: 80%;
+    background: lightcyan;
+}
+
+aside{
+    padding-left: 20px;
+    float: right;
+    padding-right: 20px;
+    width: calc(20% - 40px - 40px);
+    background: lightsteelblue;
+}
+
+#contacto{
+    float: left;
+    padding: 20px;
+    width: calc(100% - 40px);
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+}
+
+footer{
+    float: left;
+    padding: 20px;
+    width: calc(100% - 40px);
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    
+    background: black;
+    color: white;
+}
